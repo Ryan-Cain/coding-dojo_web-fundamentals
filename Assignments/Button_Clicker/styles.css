@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+/* ---------- Navbar ---------- */
+
+#navbar {
+    width: 1400px;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 50px auto;
+    padding: 20px 25px;
+    border-radius: 0 0 5px 5px;
+}
+
+#navbar h1 {
+    font-size: 48px;
+}
+
+#navbar input {
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 25%;
+    font-size: 28px;
+    padding-left: 10px;
+}
+
+#navbar button {
+    font-family: 'Red Hat Text', sans-serif;
+    color: white;
+    background-color: rgb(43, 120, 228);
+    font-size: 28px;
+    padding: 5px 15px;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    border-radius: 5px;
+}
+
+
+/* ---------- Main ---------- */
+
+#main {
+    width: 1450px;
+    display: flex;
+    /* justify-content: space-between; */
+    margin: auto;
+    align-items: flex-start;
+}
+
+#main-left {
+    flex: 2;
+}
+
+
+
+/* Definition */
+.definition {
+    border: 5px solid black;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.definition > p {
+    justify-self: center;
+    flex: 2;
+    font-size: 28px;
+    padding: 0 150px;
+}
+
+.definition > p a {
+    color: blue;
+}
+
+.word {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.word h2 {
+    font-size: 45px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+
+.word h3 {
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.word p {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.word button {
+    width: 100%;
+    padding: 8px 0;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+    background-color: rgb(255, 217, 102);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+/* ---------- Add Definition ---------- */
+#add-definition {
+    border: 5px solid black;
+    border-radius: 5px;
+    flex: 1;
+}
+
+#add-definition p {
+    font-size: 42px;
+    padding: 32px;
+}
+
+#add-definition span {
+    font-weight: bolder;
+}
+
+#add-definition button {
+    width: 85%;
+    display: block;
+    margin: auto;
+    background-color: rgb(147, 196, 125);
+    border: 3px solid black;
+    padding: 5px 0;    
+    box-shadow: 5px 5px black;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: bold;
+}

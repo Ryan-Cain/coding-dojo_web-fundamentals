@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+
+
+/* ---------- Utility ---------- */
+.header {
+    color: white;
+    background-color: rgb(51, 51, 51);
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.count {
+    font-size: 22px;
+    padding: 0 10px;
+    margin-right: 15px;
+    background-color: rgb(204, 204, 204);
+    border-radius: 50%;
+    color: rgb(75, 75, 75);
+    font-weight: bolder;
+}
+
+.hidden {
+    /* visibility: hidden; */
+    display: none;
+}
+
+
+
+/* ---------- Navbar ---------- */
+#navbar {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px calc((100% - 1350px) / 2);
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#navbar #my-profile {
+    font-size: 30px;
+}
+
+#navbar h1 {
+    margin-right: 35px;
+    font-size: 56px;
+}
+
+#nav-left {
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+
+#nav-links {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#navbar button {
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: rgb(23, 162, 184);
+    align-self: center;
+}
+
+
+
+/* ---------- Main ---------- */
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#main-content {
+    width: 1350px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#main-left {
+    flex: 3;
+}
+
+#main-right {
+    flex: 2;
+}
+
+
+
+/* ---------- Profile-card ---------- */
+.profile-header {
+    background-color: rgb(23, 162, 184);
+    height: 150px;
+}
+
+.profile-header img {
+    margin: 75px;
+    height: 150px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.profile-information {
+    padding-left: 65px;
+    padding-bottom: 20px;
+}
+
+.profile-information h1 {
+    padding-top: 75px;
+    font-size: 72px;
+    
+}
+
+.profile-flex img {
+    height: 35px;
+    margin: 0;
+}
+
+.profile-information #location {
+    padding: 0 0 15px 10px;
+}
+.profile-information #edit-profile {
+    padding: 20px 5px 10px 0;
+}
+
+#profile-card {
+    padding-bottom: 50px;
+}
+
+.profile-flex {
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#profile-card p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#profile-card a {
+    color: rgb(8, 83, 148);
+    font-weight: bolder;
+    font-size: 22px;
+    padding-left: 15px;
+}
+
+#profile-card h3 {
+    font-size: 34px;
+    padding-left: 20px;
+}
+
+
+
+/* ---------- Education ---------- */
+#education {
+    margin-bottom: 50px;
+}
+
+#education-content {
+    padding: 20px 40px;
+}
+
+#education-content h1 {
+    font-size: 36px;
+}
+
+#education-content h3 {
+    padding-top: 5px;
+    font-size: 26px;
+    color: rgb(129, 129, 129);
+}
+
+#education-content p {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+
+/* ---------- Connections ---------- */
+.content {
+    border-bottom: 7px solid rgb(205, 205, 205);
+    border-left: 7px solid rgb(205, 205, 205);
+    border-right: 7px solid rgb(205, 205, 205);
+
+}
+
+.connection-request,
+.connection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.module {
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.conn-left {
+    display: flex;
+    align-items: center;
+}
+
+.connection-request img,
+.connection img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.connection-request h3, 
+.connection h3 {
+    font-size: 30px;
+    padding: 5px 15px;
+}
+
+
+.buttons img:hover {
+    cursor: pointer;
+    
+}
+
+#view-more {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 0 10px 20px;
+}

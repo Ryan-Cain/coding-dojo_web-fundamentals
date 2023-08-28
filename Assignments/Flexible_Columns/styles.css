@@ -1,0 +1,24 @@
+.row {
+    display: flex;
+}
+.row > * {
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+    background-color: dodgerblue;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px;
+    font-size: 72px;
+    border: 5px solid darkblue;
+}
+
+.col {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}

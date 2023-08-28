@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Liking Likes</title>
+  </head>
+  <body>
+    <h1>Network</h1>
+    <p>Your Feed</p>
+    <div id="main">
+      <div id="profile">
+        <img src="bob-pic.png" alt="bob" />
+        <a href="#"><h3>Edit Avatar</h3></a>
+        <h2>Bob the Tomato</h2>
+      </div>
+      <div class="posts">
+        <div class="post">
+          <div class="top">
+            <h2>Abe Lincoln</h2>
+            <p>
+              <span>1863</span><span> likes</span>
+            </p>
+            <button onclick="addLike(this)">Like</button>
+          </div>
+          <p>
+            Four score and 2 days ago, I changed the course of our great
+            country!!
+          </p>
+        </div>
+        <div class="post">
+          <div class="top">
+            <h2>Tony Stark</h2>
+            <p><span></span><span></span></p>
+            <button onclick="addLike(this)">Like</button>
+          </div>
+          <p>I think we can all agree on who the greatest Avenger is!!</p>
+        </div>
+        <div class="post">
+          <div class="top">
+            <h2>Larry the Cucumber</h2>
+            <p><span>30</span><span> likes</span></p>
+            <button onclick="addLike(this)">Like</button>
+          </div>
+          <p>I am secretly a souper hero!</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

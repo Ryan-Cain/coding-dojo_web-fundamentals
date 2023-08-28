@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>User Card</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="navbar">
+      <div id="nav-left">
+        <h1>Profile</h1>
+        <ul id="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a id="my-profile" href="#">My Profile</a></li>
+          <li><a href="#">Find Connections</a></li>
+        </ul>
+      </div>
+      <button>Sign Out</button>
+    </div>
+
+    <!-- Main -->
+    <div id="main">
+      <div id="main-content">
+        <!-- Left Side -->
+        <div id="main-left">
+          <!-- Profile Card -->
+          <div id="profile-card">
+            <div class="profile-header">
+              <img src="./fathers-day.png" alt="" />
+            </div>
+            <div class="profile-information content">
+              <h1>Ryan Cain</h1>
+              <div class="profile-flex" id="location">
+                <img src="./icons/map-marker.png" alt="" />
+                <h3>Louisiana</h3>
+              </div>
+              <p>Developer | Engineer | Problem Solver</p>
+              <p>Where is the problem? Let me at it!</p>
+              <div class="profile-flex" id="edit-profile">
+                <img src="./icons/gear.png" alt="" />
+                <a href="#">edit profile</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Education -->
+          <div id="education">
+            <h2 class="header">Education</h2>
+            <div id="education-content" class="content">
+              <h1>Coding Dojo - Full Stack Bootcamp</h1>
+              <h3>Aug 2023 - Nov 2023</h3>
+              <p>Triple black belt in Python, Javascript, and C#.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Side -->
+        <div id="main-right">
+          <!-- Connection Requests -->
+          <div id="conn-req" class="module">
+            <div class="header">
+              <h3 class="count">2</h3>
+              <h2>Connection Requests</h2>
+            </div>
+            <div id="conn-content" class="content">
+              <div class="connection">
+                <div class="conn-left">
+                  <img src="./images/todd-s.jpg" alt="" />
+                  <h3>Todd E</h3>
+                </div>
+                <div class="buttons">
+                  <img src="./icons/accept-circle.png" alt="" />
+                  <img src="./icons/close-circle.png" alt="" />
+                </div>
+              </div>
+              <div class="connection">
+                <div class="conn-left">
+                  <img src="./images/phil-s.jpg" alt="" />
+                  <h3>Phil K</h3>
+                </div>
+                <div class="buttons">
+                  <img src="./icons/accept-circle.png" alt="" />
+                  <img src="./icons/close-circle.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Your Connections -->
+          <div id="your-conns" class="module">
+            <div class="header">
+              <h3 class="count">500+</h3>
+              <h2>Your Connections</h2>
+            </div>
+            <div id="your-conn-content" class="content">
+              <div class="connection">
+                <div class="conn-left">
+                  <img src="./images/adrien-s.jpg" alt="" />
+                  <h3>Adrien D</h3>
+                </div>
+              </div>
+              <div class="connection">
+                <div class="conn-left">
+                  <img src="./images/anne-s.jpg" alt="" />
+                  <h3>Anne J</h3>
+                </div>
+              </div>
+              <div class="connection">
+                <div class="conn-left">
+                  <img src="./images/alayne-s.jpg" alt="" />
+                  <h3>Alayne T</h3>
+                </div>
+              </div>
+              <div class="connection">
+                <div class="conn-left">
+                  <img src="./images/arry-s.jpg" alt="" />
+                  <h3>Arry Y</h3>
+                </div>
+              </div>
+            </div>
+            <a id="view-more" class="content" href="#">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
